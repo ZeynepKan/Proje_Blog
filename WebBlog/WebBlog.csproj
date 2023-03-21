@@ -1,0 +1,41 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\CoreBlogTema\images\1z.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="wwwroot\CoreBlogTema\.vs\ProjectSettings.json" />
+    <Content Include="wwwroot\CoreBlogTema\.vs\VSWorkspaceState.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\CoreBlogTema\.vs\CoreBlogTema\FileContentIndex\0355417c-cca9-42a4-a749-539cf46b5323.vsidx" />
+    <None Include="wwwroot\CoreBlogTema\.vs\CoreBlogTema\FileContentIndex\read.lock" />
+    <None Include="wwwroot\CoreBlogTema\.vs\slnx.sqlite" />
+    <None Include="wwwroot\CoreBlogTema\images\1z.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BlogService\BlogService.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\CoreBlogTema\.vs\CoreBlogTema\FileContentIndex\merges\" />
+    <Folder Include="wwwroot\CoreBlogTema\.vs\CoreBlogTema\v17\" />
+  </ItemGroup>
+
+</Project>

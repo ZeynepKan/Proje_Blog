@@ -1,0 +1,24 @@
+﻿
+@model IEnumerable<BlogService.Models.VMs.GetCommentVM>
+
+
+<div class="comment-top">
+	<h4>Yorumlar</h4>
+@foreach (var item in Model)
+		{
+	<div class="media">
+		
+		<img src="~/CoreBlogTema/images/t1.jpg" alt="" class="img-fluid" />
+		<div class="media-body">
+			<h5 class="mt-0">@item.UserName</h5>
+			<p>
+				@item.Text
+			</p>
+
+			
+
+            </div>
+               
+	</div>
+		}
+</div>
